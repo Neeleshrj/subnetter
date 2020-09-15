@@ -1,5 +1,3 @@
-from textwrap import wrap
-
 ipaddr=input().split("/")
 
 subnet=[0,0,0,0]
@@ -97,15 +95,5 @@ print(firstip2[0],".",firstip2[1],".",firstip2[2],".",firstip2[3])
 
 print("Last IP= ",end="")
 print(lastip2[0],".",lastip2[1],".",lastip2[2],".",lastip2[3])
-
-
-
-
-
-
-
-
-
-
 
 
